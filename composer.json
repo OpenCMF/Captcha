@@ -1,0 +1,22 @@
+{
+  "name": "openncmf/captcha",
+  "description": "The OpenCMF Captcha",
+  "type": "library",
+  "keywords": ["php", "OpenCMF","Captcha"],
+  "license": "MIT",
+  "homepage": "https://opencmf.makun.com",
+  "authors": [
+    {
+      "name": "Makun",
+      "email": "code@makun.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "opencmf\\captcha\\": "src/"
+    }
+  }
+}
