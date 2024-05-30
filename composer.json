@@ -1,5 +1,5 @@
 {
-  "name": "openncmf/captcha",
+  "name": "opencmf/captcha",
   "description": "The OpenCMF Captcha",
   "type": "library",
   "keywords": ["php", "OpenCMF","Captcha"],
@@ -11,9 +11,6 @@
       "email": "code@makun.com"
     }
   ],
-  "require": {
-    "php": "^8.1"
-  },
   "autoload": {
     "psr-4": {
       "opencmf\\captcha\\": "src/"
